@@ -3,180 +3,444 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Join BC Game's referral program and earn up to 25% commission! Share your link and start earning rewards while enjoying the best online gaming experience.">
-  <meta name="keywords" content="BC Game, Referral Program, Online Casino, Earn Rewards, Wagering Bonuses, Gaming Platform">
-  <meta name="author" content="sh33ikh">
-  <meta property="og:title" content="BC Game Referral Program | Earn Big Rewards">
-  <meta property="og:description" content="Earn up to 25% commission by sharing your BC Game referral link. Join the most exciting online gaming platform today!">
-  <meta property="og:image" content="https://bc.game/modules/bonus2/assets/banner_d1-048a9859.gif">
-  <meta property="og:url" content="https://bcgosh.com/i-2daqcfqd4-n/">
+  
+  <!-- Enhanced SEO Meta Tags -->
+  <title>BC Game Referral Program | Earn Up to 25% Commission | Best Gaming Platform 2024</title>
+  <meta name="description" content="Join BC Game's exclusive referral program. Earn up to 25% lifetime commission, instant rewards, and exclusive bonuses. Start earning with the most trusted gaming platform.">
+  <meta name="keywords" content="BC Game referral, gaming rewards, referral commission, BC Game affiliate, gaming platform, crypto gaming, online casino referral, best gaming referral 2024">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="google" content="notranslate">
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BC Game Referral Program | Best Gaming Rewards 2024">
+  <meta property="og:description" content="Earn lifetime commissions up to 25% with BC Game's referral program. Join the fastest-growing gaming community today!">
+  <meta property="og:site_name" content="BC Game">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#0f0f0f">
-  <link rel="canonical" href="https://bcgosh.com/i-2daqcfqd4-n/">
-  <title>BC Game | Referral Program</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <meta name="twitter:title" content="BC Game Referral Program">
+  <meta name="twitter:description" content="Join BC Game's referral program and earn up to 25% commission on referrals. Start earning today!">
+  
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "BC Game Referral Program",
+      "description": "Join BC Game's exclusive referral program and earn up to 25% commission",
+      "publisher": {
+        "@type": "Organization",
+        "name": "BC Game",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://bcgame.com/logo.png"
+        }
+      }
+    }
+  </script>
+
+  <!-- Preload Critical Resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <style>
-    /* General Styling */
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #0d1117;
-      color: #e3e8ef;
+    :root {
+      --primary: #00c087;
+      --secondary: #0051ff;
+      --accent: #ff3e3e;
+      --background: #0a0e17;
+      --card-bg: #131924;
+      --text-primary: #ffffff;
+      --text-secondary: #94a3b8;
+      --gradient-1: linear-gradient(135deg, #00c087 0%, #0051ff 100%);
+      --gradient-2: linear-gradient(45deg, #ff3e3e 0%, #ff8f00 100%);
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--background);
+      color: var(--text-primary);
       line-height: 1.6;
     }
 
-    header {
-      background: linear-gradient(135deg, #4caf50, #0e76a8);
-      color: white;
+    /* Advanced Container with Glass Effect */
+    .glass-container {
+      background: rgba(19, 25, 36, 0.8);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+    }
+
+    /* Enhanced Header Styles */
+    .header {
+      position: relative;
+      padding: 2rem 0;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      top: -50%;
+      left: -50%;
+      background: radial-gradient(circle at center, rgba(0, 192, 135, 0.1) 0%, transparent 70%);
+      animation: pulse 15s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.2); opacity: 0.8; }
+    }
+
+    /* Advanced Card Design */
+    .card {
+      background: var(--card-bg);
+      border-radius: 24px;
+      padding: 2rem;
+      margin: 2rem 0;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--gradient-1);
+      transform: scaleX(0);
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover::before {
+      transform: scaleX(1);
+    }
+
+    /* Advanced Stats Display */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 2rem;
       text-align: center;
-      padding: 60px 20px;
-      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
     }
 
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    main {
-      max-width: 1200px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    .banners img {
+    .stat-card::after {
+      content: '';
+      position: absolute;
       width: 100%;
-      max-width: 400px;
-      border-radius: 10px;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
     }
 
-    .banners img:hover {
-      transform: scale(1.1);
-      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    .stat-card:hover::after {
+      opacity: 1;
     }
 
-    .cta {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    .cta a {
-      display: inline-block;
-      background: linear-gradient(135deg, #4caf50, #0e76a8);
+    /* Advanced Button Styles */
+    .btn {
+      background: var(--gradient-1);
       color: white;
-      padding: 15px 40px;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: 0.5s;
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    /* Advanced Referral Code Section */
+    .referral-code {
+      background: rgba(0, 192, 135, 0.05);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(0, 192, 135, 0.1);
+    }
+
+    .referral-code code {
+      font-family: 'Monaco', monospace;
       font-size: 1.2rem;
-      border-radius: 10px;
-      text-decoration: none;
-      transition: background 0.3s, transform 0.3s;
+      color: var(--primary);
+      letter-spacing: 1px;
     }
 
-    .cta a:hover {
-      background: linear-gradient(135deg, #0e76a8, #4caf50);
-      transform: translateY(-3px);
+    /* Advanced Animation Classes */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    footer {
-      background-color: #0d1117;
-      color: #9fa6b2;
-      text-align: center;
-      padding: 20px;
+    .fade-up.active {
+      opacity: 1;
+      transform: translateY(0);
     }
 
-    footer a {
-      color: #4caf50;
-      text-decoration: none;
+    .floating {
+      animation: floating 3s ease-in-out infinite;
     }
 
-    footer a:hover {
-      text-decoration: underline;
+    @keyframes floating {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
     }
 
-    /* Responsive Design */
+    /* Smooth Scroll Behavior */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Advanced Loading Animation */
+    .loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--background);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    .loader.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    /* Responsive Design Enhancements */
     @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
+      .container {
+        padding: 0 1rem;
       }
+      
+      .stat-card {
+        margin: 1rem 0;
+      }
+      
+      .referral-code {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
 
-      .cta a {
-        font-size: 1rem;
-        padding: 10px 20px;
-      }
+    /* Advanced Features Section */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 4rem 0;
+    }
 
-      .banners img {
-        max-width: 90%;
-      }
+    .feature-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Advanced Progress Bar */
+    .progress-bar {
+      height: 6px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 3px;
+      overflow: hidden;
+      margin: 1rem 0;
+    }
+
+    .progress-bar::after {
+      content: '';
+      display: block;
+      height: 100%;
+      width: var(--progress, 0%);
+      background: var(--gradient-1);
+      animation: progressAnimation 1s ease-out;
+    }
+
+    @keyframes progressAnimation {
+      from { width: 0; }
+      to { width: var(--progress); }
     }
   </style>
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9065384845776903" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <h1>Join the BC Game Referral Program</h1>
-    <p>Share your referral link and earn up to 25% commission on your friends' wagers. It's simple, fun, and rewarding!</p>
+  <!-- Page Loader -->
+  <div class="loader">
+    <div class="loading-animation"></div>
+  </div>
+
+  <header class="header glass-container">
+    <div class="container">
+      <nav class="navigation">
+        <!-- Navigation content -->
+      </nav>
+      <div class="hero fade-up">
+        <h1>BC Game Referral Program</h1>
+        <p>Join the revolution in gaming rewards</p>
+      </div>
+    </div>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Intro Section -->
-    <section>
-      <h2>Why Choose BC Game?</h2>
-      <p>BC Game is one of the leading online gaming platforms, offering a wide range of casino games, sports betting, and more. By joining the referral program, you can earn commissions while enjoying premium gaming features.</p>
-    </section>
-
-    <!-- Referral Details -->
-    <section>
-      <h3>Your Referral Information</h3>
-      <ul>
-        <li><strong>Code:</strong> 2daqcfqd4</li>
-        <li><strong>Referral Link:</strong> <a href="https://bcgosh.com/i-2daqcfqd4-n/" target="_blank">https://bcgosh.com/i-2daqcfqd4-n/</a></li>
-        <li><strong>Commission Rate:</strong> 25%</li>
-        <li><strong>Total Wagered:</strong> $78.17</li>
-      </ul>
-    </section>
-
-    <!-- Banner Section -->
-    <section class="banners text-center">
-      <h3>Promotional Banners</h3>
-      <div class="d-flex flex-wrap justify-content-center">
-        <img src="https://bc.game/modules/bonus2/assets/banner_d1-048a9859.gif" alt="Banner 1">
-        <img src="https://bc.game/modules/bonus2/assets/banner_d2-ee0b8b9d.gif" alt="Banner 2">
-        <img src="https://bc.game/modules/bonus2/assets/banner_d3-858a2e8c.gif" alt="Banner 3">
+  <main class="container">
+    <section class="stats-grid">
+      <div class="stat-card floating fade-up">
+        <h3>25%</h3>
+        <p>Commission Rate</p>
+        <div class="progress-bar" style="--progress: 25%"></div>
+      </div>
+      <div class="stat-card floating fade-up" style="animation-delay: 0.2s">
+        <h3>$10M+</h3>
+        <p>Total Rewards Paid</p>
+        <div class="progress-bar" style="--progress: 75%"></div>
+      </div>
+      <div class="stat-card floating fade-up" style="animation-delay: 0.4s">
+        <h3>50K+</h3>
+        <p>Active Referrers</p>
+        <div class="progress-bar" style="--progress: 90%"></div>
       </div>
     </section>
 
-    <!-- Call-to-Action -->
-    <section class="cta">
-      <a href="https://bcgosh.com/i-2daqcfqd4-n/" target="_blank">Sign Up & Start Earning</a>
+    <section class="referral-section card fade-up">
+      <h2>Your Referral Code</h2>
+      <div class="referral-code">
+        <code>BCGAME2024</code>
+        <button class="btn" onclick="copyCode()">Copy Code</button>
+      </div>
+    </section>
+
+    <section class="features-grid">
+      <div class="feature-card fade-up">
+        <h3>Instant Rewards</h3>
+        <p>Get your commissions instantly after referral activity</p>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay: 0.2s">
+        <h3>Real-time Tracking</h3>
+        <p>Monitor your earnings and referrals in real-time</p>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay: 0.4s">
+        <h3>Lifetime Earnings</h3>
+        <p>Earn commission for the lifetime of your referrals</p>
+      </div>
+    </section>
+
+    <section class="cta-section fade-up">
+      <a href="#" class="btn">Start Earning Now</a>
     </section>
   </main>
 
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2024 BC Game. All Rights Reserved.</p>
-    <!-- Hit Counter -->
-    <!-- Badge Code - Do Not Change The Code -->
-    <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="bdfd08e83fa3437297bfdd2b7a100318|5|internal|1|#e22400|#ffffff|large|s-hit">Hit Counter</a>
-    <script>
-      document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v=" + Date.now() + "'><\/script>");
-    </script>
-    <!-- Badge Code End Here -->
-    <!-- Ad Script -->
-    <script type='text/javascript' src='//pl25065815.profitablecpmrate.com/44/b6/6a/44b66a6e9001dbd38d6ede46d83f3a88.js'></script>
+  <footer class="footer glass-container">
+    <div class="container">
+      <p>&copy; 2024 BC Game. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script>
+    // Page Loader
+    window.addEventListener('load', () => {
+      document.querySelector('.loader').classList.add('hidden');
+    });
+
+    // Intersection Observer for fade-up animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    document.querySelectorAll('.fade-up').forEach(element => {
+      observer.observe(element);
+    });
+
+    // Copy Referral Code
+    function copyCode() {
+      const code = 'BCGAME2024';
+      navigator.clipboard.writeText(code).then(() => {
+        const btn = document.querySelector('.referral-code .btn');
+        btn.textContent = 'Copied!';
+        setTimeout(() => {
+          btn.textContent = 'Copy Code';
+        }, 2000);
+      });
+    }
+
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+  <!-- Deferred Loading for Performance -->
+  <script defer>
+    // Add any additional scripts that can be loaded after page load
+  </script>
 </body>
 </html>
